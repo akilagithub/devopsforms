@@ -1,0 +1,6 @@
+export region="us-ashburn-1"
+export compartment_ocid="ocid1.compartment.oc1..aaaaaaaach4c3i5kpecjfjqwp3wfjfmbbjniyzieaxhcjs6c73ya2wl6vaxq"
+export shape="VM.Standard2.1"
+export image-id="ocid1.image.oc1.iad.aaaaaaaaiivvdvorahtkv7awpuuo22horoegqdymxggavbh3gd5xeqh6vysq"
+export subnet-id="ocid1.subnet.oc1.iad.aaaaaaaaieok3k3vxzrggwlio6cvq45aiakddn3wd6n6q3aduhgq2om3vgfq"
+export public-key="./Ssh-Keys/formr.pub"
