@@ -1,2 +1,2 @@
 #!/bin/bash
-oci compute instance launch --availability-domain=$region --compartment-id=$compartment_ocid --shape=$shape --display-name="formscloud" --image-id=$image-id  --subnet-id=$subnet-id --wait-for-state="RUNNING" --ssh-authorized-keys-file=$public-key
+oci compute instance launch --availability-domain=$region --compartment-id=$compartment_ocid --shape=$shape --display-name="formscloud" --image-id=$image_id  --subnet-id=$subnet_id --wait-for-state="RUNNING" --ssh-authorized-keys-file=$public_key_path
