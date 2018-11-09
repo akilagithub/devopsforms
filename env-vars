@@ -5,3 +5,4 @@ export image_id="ocid1.image.oc1.iad.aaaaaaaaiivvdvorahtkv7awpuuo22horoegqdymxgg
 export subnet_id="ocid1.subnet.oc1.iad.aaaaaaaa3bsd573fadrm2w73oj3a3xfn4vaweddwh66wmiiymqfob4m4rlba"
 export public_key_path="./SshKeys/formr.pub"
 export db_ip_address="129.213.163.108"
+export db_service_name="aTFdb_iad2gj.dbsubad2.completevcn.oraclevcn.com"

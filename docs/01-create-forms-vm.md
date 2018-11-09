@@ -1,12 +1,4 @@
-# DevOps Forms Workshop
-
-Note That this workshop is not standalone. You need a database for Forms Application so you have to do the [devopsdb workshop](https://github.com/cpruvost/devopsdb) before.
-
-Sure you need :
-
-- a Forms 12c VM Image in order to be able to be able to build automatically your Forms 12c VM and to be able to deploy you forms application on it. We have already done the job for you but you can sure do your own image on Oracle Cloud Infrastructure (OCI).
-- a dump of the Schema of the Forms application. We already have done the job for you with a forms demo application.
-- a zip of the Forms application with all the fmb, pll, ... We already have done the job for you with a forms demo application.
+# Create Forms VM
 
 ## Import the Forms Target Cloud Image in your Cloud Account
 
@@ -21,13 +13,13 @@ In order to speed up your work, if you are with Oracle people, we created it for
 
 Now create an Empty Private Project called "DevOpsFormsx". Update the number in the name according to your user number (ex : DevOpsForms1 if you are user1.devops). It takes 2 minute to get  it.
 
-![Create Empty Project](docs/images/Create_DevCs_Project.png)
+![Create Empty Project](images/Create_DevCs_Project.png)
 
 ## Create your git repository
 
 So in Developer Cloud Service on your  project (ex DevOpsForms1) you have to create a git repository named "devopsforms". Click on "New Repository" and choose to import the devopsdb forms github repository.
 
-![Create Empty Project](docs/images/Create_DevCs_Git_Repo.png) 
+![Create Empty Project](images/Create_DevCs_Git_Repo.png) 
 
 ## Clone the source code in the DevOps VM
 
@@ -77,6 +69,8 @@ You will use OCI CLI to do that.
 
 In DevCS you create a new Job (Build Menu). The name of the job is "Create_Forms_VM".  Like before in DevOps Db workshop you add a git source control (it is your devopsforms.git) and you add an OCIcli Builder and a Shell Unix Builder like below (in OCIcli Builder use the good values of your Oracle Cloud Account)
 
-![OCIcli Builder](docs/images/OCI_CLI_Builder.png)
+![OCIcli Builder](images/OCI_CLI_Builder.png)
 
-![Unix Shell Builder](docs/images/Create_Forms_Unix_Builder.png)
+![Unix Shell Builder](images/Create_Forms_Unix_Builder.png)Now you can run the Job. At the end you will see your Forms VM in the Cloud Console.
+
+![Forms VM](images/Forms_VM.png)
