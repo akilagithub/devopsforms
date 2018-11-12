@@ -41,6 +41,7 @@ export image_id="ocid1.image.oc1.xxxxxx"
 export subnet_id="ocid1.subnet.oc1.iad.xxxxxx"
 export public_key_path="./SshKeys/formr.pub"
 export db_ip_address="129.213.xxx.xxx"
+export db_service_name="aTFdb.xxxxxxxxxxx"
 ```
 
 region : choose the same region as your Db.

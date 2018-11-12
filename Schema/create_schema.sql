@@ -1,4 +1,4 @@
-set serverout on;
+set serveroutput on;
 alter session set container = MYPDB;
 DECLARE
     cnt NUMBER;
