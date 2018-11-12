@@ -1,23 +1,8 @@
-set serveroutput on;
-alter session set container = MYPDB;
-DECLARE
-    cnt NUMBER;
-BEGIN
-    SELECT Count(*)
-    INTO   cnt
-    FROM   all_users
-    WHERE  USERNAME = 'SUMMIT';
+export MYRESULT=$(sql -noupdates -s -l @db_system_user/@db_systep_password@$db_ip_address:1521/$db_service_name @check_schema.sql)
 
-    IF cnt = 1 THEN
-	    --@delete_ddl.sql;
-	
-        dbms_output.put_line('User SUMMIT Already Exists');   
-    ELSE
-		@create_ddl.sql
-		
-		dbms_output.put_line('User SUMMIT Is There');   
-    END IF;
-END;
-/
-
-
+if [ "$MYRESULT" == "GO" ]
+  sql -noupdates -s -l @db_system_user/@db_systep_password@$db_ip_address:1521/$db_service_name @create_ddl.sql
+  echo "CREATE SCHEMA DONE"
+else
+  echo "SCHEMA ALREADY EXISTS"
+fi
