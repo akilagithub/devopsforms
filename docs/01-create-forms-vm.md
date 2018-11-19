@@ -42,6 +42,7 @@ export subnet_id="ocid1.subnet.oc1.iad.xxxxxx"
 export public_key_path="./SshKeys/formr.pub"
 export db_ip_address="129.213.xxx.xxx"
 export db_service_name="aTFdb.xxxxxxxxxxx"
+export pdb_service_name="MYPDB.xxxxxxxxxx"
 ```
 
 region : choose the same region as your Db.

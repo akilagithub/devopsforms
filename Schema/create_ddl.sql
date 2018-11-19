@@ -6,3 +6,4 @@ grant unlimited tablespace to summit;
 create or replace directory pump_dir as '/home/oracle';
 grant read,write on directory pump_dir to SUMMIT;
 alter profile default limit PASSWORD_LIFE_TIME unlimited;
+exit;

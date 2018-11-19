@@ -6,3 +6,4 @@ export subnet_id="ocid1.subnet.oc1.iad.aaaaaaaa3bsd573fadrm2w73oj3a3xfn4vaweddwh
 export public_key_path="./SshKeys/formr.pub"
 export db_ip_address="129.213.163.108"
 export db_service_name="aTFdb_iad2gj.dbsubad2.completevcn.oraclevcn.com"
+export pdb_service_name="MYPDB.dbsubad2.completevcn.oraclevcn.com"

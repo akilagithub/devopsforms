@@ -1,5 +1,6 @@
-set serveroutput on;
-alter session set container = MYPDB;
+SET SERVEROUTPUT ON;
+SET FEEDBACK OFF;
+
 DECLARE
     cnt NUMBER;
 BEGIN
@@ -9,9 +10,9 @@ BEGIN
     WHERE  USERNAME = 'SUMMIT';
 
     IF cnt = 1 THEN
-        dbms_output.put_line('NOGO');   
+        dbms_output.put_line('YES');   
     ELSE
-		dbms_output.put_line('GO');   
+		dbms_output.put_line('NO');   
     END IF;
 END;
 /

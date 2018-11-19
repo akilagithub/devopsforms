@@ -14,4 +14,7 @@ Do not hesitate to use it and ask for enhancements if you have any ideas. We wil
 
 1. Create Forms Cloud VM [01-create-forms-vm.md](docs/01-create-forms-vm.md)
 2. Import Application Schema in Database [02-import-db-schema.md](docs/02-import-db-schema.md)
-3. Import Forms Application in Forms Cloud VM  [03-import-forms-application.md](docs/03-import-forms-application.md)
+3. Compile Forms Application  [03-compile-forms-application.md](docs/03-compile-forms-application.md)
+4. Do the configuration of Forms Application  [04-config-forms-application.md](docs/04-config-forms-application.md)
+5. Orchestrate all steps in a pipeline  [05-pipeline.md](docs/05-pipeline.md)
+
