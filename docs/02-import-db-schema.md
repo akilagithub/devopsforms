@@ -83,7 +83,7 @@ echo "pdb_service_name = $pdb_service_name"
 
 Loot at the code in order to understand. You can see that we use the docker image "cpruvost/devopsforms" in order to do the import of the dump.
 
-So before running we must add "Docker" in the Build VM and so we add to update the template of the Build VM. Do that part as you do in the previous workshop. below you can see Docker 17.12 in the template.
+So before running we must add "Docker" in the Build VM and so we have to update the template of the Build VM. Do that part as you do in the previous workshop. below you can see Docker 17.12 in the template.
 
 ![Template_Docker](./images/Template_with_Docker.png)
 
