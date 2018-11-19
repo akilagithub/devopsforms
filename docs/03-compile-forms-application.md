@@ -74,4 +74,4 @@ chmod +x ./moove_app_export.sh
 ./upload_app_export.sh
 ```
 
-Run the job. Look at the result. You can connect sith ssh to the Forms Cloud VM in order to check that all is good. 
+Run the job. Look at the result. You can connect with ssh to the Forms Cloud VM in order to check that all is good. 
