@@ -8,7 +8,7 @@ Sure you need :
 - a dump of the Schema of the Forms application. We already have done the job for you with a forms demo application.
 - a zip of the Forms application with all the fmb, pll, ... We already have done the job for you with a forms demo application.
 
-Do not hesitate to use it and ask for enhancements if you have any ideas. We will use Developer CS for the pipeline but you can use another solution if you want (Jenkins for ex).
+Do not hesitate to use it and ask for enhancements if you have any ideas. We will use Developer CS for the pipeline.
 
 ## Table of Contents
 
