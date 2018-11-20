@@ -46,7 +46,7 @@ So the first step is to create a docker image with the "Oracle Instant client 18
 # Run: 
 #      $ docker build -t oracle/instantclient:18.3.0 . 
 #
-#
+
 FROM oraclelinux:7-slim
 
 RUN  curl -o /etc/yum.repos.d/public-yum-ol7.repo https://yum.oracle.com/public-yum-ol7.repo && \
