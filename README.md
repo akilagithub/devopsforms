@@ -1,5 +1,7 @@
 # DevOps Forms Workshop
 
+This workshop guides you through the setup, and the configuration of an Oracle Developer Cloud Service pipeline in order to deploy an Oracle Forms application on Oracle Cloud Infrastructure (OCI).
+
 Note That this workshop is not standalone. You need a database for Forms Application so you have to do the [devopsdb workshop](https://github.com/cpruvost/devopsdb) before.
 
 Sure you need :
